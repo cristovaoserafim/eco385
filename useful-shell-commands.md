@@ -16,16 +16,14 @@ winnieywl
 
 <br>
 
-    ```bat
 
-    ```
 
 1. show present working directory (where you are)
     ```bat
     pwd
     ```
 
-2. list what is under the current working directory
+0. list what is under the current working directory
     ```bat
     ls
     ```
@@ -36,31 +34,61 @@ winnieywl
     ls -la
     ```
 
-3. change working directory
+0. change working directory
     ```bat
     cd <your_working_directory>
     ```
-4. auto-populate the rest of a long command/file name
+
+0. auto-populate the rest of a long command/file name
     ```
     type the first unique few letters + tab key
     ```
-5. move up one level from your current working directory
+
+
+
+0. **Don't want to type out the same command again? hit the `⬆` key to call out the previous command**
+
+
+
+0. add a line of text to a file that you want to write
+
+    ```bat
+    echo Hello! My name is Winnie >> <filename>.<extension>
+    ```
+    
+    Example:
+
+    ```bat
+    echo Hello! My name is Winnie >> winnietext.txt
+    echo This is the second line in winnietext! >> winnietext.txt
+    ```
+
+0. display the text in a file
+
+    ```bat
+    cat winnietext.txt
+    ```
+
+0. replace all the text in a file with what you want to write
+    ```bat
+    echo I want to write this sentence instead of all texts that were here! > <filename>.<extension>
+    ```
+
+
+0. move up one level from your current working directory
     ```bat
     cd ..
     ```
-6. remove a file **Dangerous! CANNOT be UNDO**
+0. remove a file **Dangerous! CANNOT be UNDO**
     ```bat
     rm <filename>.<extension>
     ```
-7. show a list of previous command
+0. show a list of previous command
     ```bat
     history
     ```
-8. Don't want to type out the same command again? 
-    ```
-    hit up arrow key to call out the previous command
-    ```
-9. Create a new blank file under the current working directory
+
+0. Create a new blank file under the current working directory
 
     Mac users:
     ```bat
@@ -71,7 +99,7 @@ winnieywl
     ```bat
     New-Item <newfilename>.<extention> -type file
     ```
-10. Rename a file
+0. Rename a file
     ```bat
     mv <oldfilename>.<extension> <newfilename>.<extension>
     ```
