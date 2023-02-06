@@ -88,7 +88,7 @@ Professors may make changes to their course materials. Those changes will not au
 1. In your shell/terminal, change into the repository folder on your pc. Hit enter.
 
     ```bat
-    cd "C:\Users\winni\OneDrive\git\test"
+    cd "C:\Users\winni\OneDrive\git\eco385"
     ```
 
 <br>
