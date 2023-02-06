@@ -71,7 +71,7 @@ When you fork, you create a copy of the main repository as your own repository i
 2. Clone your forked repository
 
     ```console
-    git clone https://github.com/gregcolman/eco385
+    git clone https://github.com/<yourgithubusername>/eco385
     ```
 <br>
 
