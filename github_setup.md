@@ -176,3 +176,9 @@ Copy the token in the green area and paste into your terminal as your password. 
 [**About pull requests**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
 [**Forking a repo**](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+
+## **Other Useful Things to Know**
+
+### **Deleting your own repo**
+
