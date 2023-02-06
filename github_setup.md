@@ -36,7 +36,7 @@ When you fork, you create a copy of the main repository as your own repository i
 
 <br>
 
-1. Go to the main repository, **test**, created by owner **artichokew**: https://github.com/artichokew/test
+1. Go to the main repository, **eco385**, created by owner **gregcolman**: https://github.com/gregcolman/eco385
 
 <br>
 
@@ -52,7 +52,7 @@ When you fork, you create a copy of the main repository as your own repository i
 
 <br>
 
-4. Click the green botton **Create Fork**. Note that in your forked repo, the url has changed from **artichokew/test** to **winnieywl/test**. This means this repo has been copied to your github page. 
+4. Click the green botton **Create Fork**. Note that in your forked repo, the url has changed from **gregcolman/eco385** to **your_user_name/eco385**. This means this repo has been copied to your github page. 
 
 <br>
 
@@ -71,14 +71,14 @@ When you fork, you create a copy of the main repository as your own repository i
 2. Clone your forked repository
 
     ```console
-    git clone https://github.com/winnieywl/test
+    git clone https://github.com/gregcolman/eco385
     ```
 <br>
 
-This step will create a folder under **C:\Users\winni\OneDrive\git**, with the name of the repository as its name, **test**.       
+This step will create a folder under **C:\Users\winni\OneDrive\git**, with the name of the repository as its name, **eco385**.       
 
 
-This step also downloads ALL content posted in the github repository, **test**, to the folder, **test** under **C:\Users\winni\OneDrive\git**     
+This step also downloads ALL content posted in the github repository, **eco385**, to the folder, **eco385** under **C:\Users\winni\OneDrive\git**     
 
 <br>
 
@@ -93,15 +93,15 @@ Professors may make changes to their course materials. Those changes will not au
 
 <br>
 
-2. Connect to the main repository, **test**, by **artichokew**
+2. Connect to the main repository, **eco385**, by **gregcolman**
 
     ```console
-    git remote add upstream https://github.com/artichokew/test.git
+    git remote add upstream https://github.com/gregcolman/eco385.git
     ```
 
 <br>
 
-3. Pull the latest change from the upstream repo by **artichokew**
+3. Pull the latest change from the upstream repo by **gregcolman**
 
     ```bat
     git fetch upstream 
@@ -121,7 +121,7 @@ Professors may make changes to their course materials. Those changes will not au
 
 Let’s say, you are asked to submit your Stata script in a folder called "midterm"
 
-1. You want to make sure you have the latest version of **test** from artichokew. Repeat **steps 1, 3 and 4** from section **Downloading the latest content from the upstream repo**
+1. You want to make sure you have the latest version of **eco385** from gregcolman. Repeat **steps 1, 3 and 4** from section **Downloading the latest content from the upstream repo**
 
 <br>
 
