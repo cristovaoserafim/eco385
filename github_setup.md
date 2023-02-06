@@ -15,12 +15,16 @@ git config --global user.email your_github_email
 ```
 <br>
 
-**mac users**: if you run into an **`xcrun`** error: invalid active developer path, check [<ins>this solution</ins>](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a): 
+#### **mac users**: if you run into an **`xcrun`** error: invalid active developer path, check [<ins>this solution</ins>](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a): 
 
 
 ```bat
 xcode-select --install
 ```
+
+<br>
+
+#### **windows users**: if you have trouble running git config, please install [<ins>Git Bash</ins>](https://git-scm.com/download/win).
 
 <br>
 
@@ -52,7 +56,7 @@ When you fork, you create a copy of the main repository as your own repository i
 
 <br>
 
-###  **Connecting (Cloning) to your Fork Repository (only need to do this once per repo** 
+###  **Connecting (Cloning) to your Fork Repository (only need to do this once per repo)** 
 
 <br>
 
