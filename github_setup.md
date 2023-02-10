@@ -93,7 +93,7 @@ Professors may make changes to their course materials. Those changes will not au
 
 <br>
 
-2. Connect to the main repository, **eco385**, by **gregcolman**
+2. Connect to the main repository, **eco385**, by **gregcolman**. This step is for one-time only. You can skip this step if you have done this before. 
 
     ```console
     git remote add upstream https://github.com/gregcolman/eco385.git
@@ -117,37 +117,45 @@ Professors may make changes to their course materials. Those changes will not au
 
 <br>
 
-### **Submitting an Assignment and Create a Pull Request**
+### **Submitting an Assignment**
 
-Let’s say, you are asked to submit your Stata script in a folder called "midterm"
+For every assignment, you will receive a github link from Professor Colman. For example, https://classroom.github.com/a/Nx4ibCgf. 
 
-1. You want to make sure you have the latest version of **eco385** from gregcolman. Repeat **steps 1, 3 and 4** from section **Downloading the latest content from the upstream repo**
+1. Click on the link and accept the assignment. It will create a repository for you. 
 
-<br>
+0. Move into a separate folder. **Important!** Do NOT clone a repo in a folder for another repo. 
 
-2. Check your forked repository folder and see that **midterm** folder is there. 
+    ```bat
+    cd "C:\Users\winni\OneDrive\git\"
+    ```
 
-<br>
+0. Get the url of your assignment repo. 
 
-3. Copy and paste the latest version of your work into **midterm**, give it a unique name like **Winnie_Liu_385_midterm**!
+    ```bat
+    git clone https://github.com/Sagamore-Economics/practice_midterm-winnieywl
+    ```
 
-<br>
+0. Move into the assignment repo folder
 
-4. Update the forked repo on your github page. 
+    ```bat
+    cd practice_midterm-winnieywl
+    ```
+
+0. Copy and paste the latest version of your work into **practice_midterm-winnieywl**, give it a unique name like **Winnie_Liu_385_midterm**!
+
+0. Ask github to track the change. 
 
     ```console
-    git add *
+    git add Winnie_Liu_385_midterm.docx
     ```
-<br>
 
-5. Commit changes
+0. Commit changes
 
     ```console
     git commit -m "You must put a comment here, like Winnie Liu Midterm"
     ```
-<br>
 
-6. Push your change onto github
+0. Push your change onto github
 
     ```bat
     git push
